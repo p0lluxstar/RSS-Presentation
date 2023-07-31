@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/my-styles.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-transition="concave" id="slide-1">
+					<h3>"Testing frontend applications"</h3>
+					<p>
+						<small>Speaker: Evgeniy A.</small>
+					</p>
+				</section>
+				<section data-transition="concave" id="slide-2">
+					<h3>Frontend application is...</h3>
+					<img src="./images/slide-2.jpg">
+				</section>
+				<section data-transition="concave" id="slide-3">
+					<h3>Application testing is...</h3>
+					<img src="./images/slide-3.jpg">
+				</section>
+				<section data-transition="concave" id="slide-4">
+					<h3>Pros and cons of application testing</h3>
+					<div>
+						<h4>Pros</h4>
+						<ul>
+							<li>reduce the number of regressions</li>
+							<li>give more confidence when refactoring</li>
+							<li>resolve issues when updating dependencies</li>
+						</ul>
+					</div>
+					<div>
+						<h4>Cons</h4>
+						<ul>
+							<li>testing requires additional financial costs</li>
+							<li>we need more time in the initial stages</li>
+							<li>it is necessary to think over the structure for tests</li>
+						</ul>
+					</div>
+				</section>
+				<section data-transition="concave" id="slide-5">
+					<h3>Types of tests</h3>
+					<img src="./images/slide-5.jpg">
+				</section>
+				<section data-transition="concave" id="slide-6">
+					<h3>Unit testing</h3>
+					<img src="./images/slide-6.jpg">
+				</section>
+				<section data-transition="concave" id="slide-7">
+					<h3>Integration testing</h3>
+					<img src="./images/slide-7.jpg">
+				</section>
+				<section data-transition="concave" id="slide-8">
+					<h3>E2E testing</h3>
+					<img src="./images/slide-8.jpg">
+				</section>
+				<section data-transition="concave" id="slide-9">
+					<h3>Tools testing</h3>
+					<img src="./images/slide-9.jpg">
+				</section>
+				<section data-transition="concave" id="slide-10">
+					<h3>Information sources</h3>
+					<ul>
+						<li>https://testengineer.ru/frontend-testing-guide/</li>
+						<li>https://doka.guide/tools/how-to-test-and-why/</li>
+						<li>https://practicum.yandex.ru/blog/chto-takoe-modulnoe-yunit-testirovanie/</li>
+						<li>https://tproger.ru/translations/frontend-testing-1/</li>
+						<li>https://habr.com/ru/companies/samokat_tech/articles/704342/</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>

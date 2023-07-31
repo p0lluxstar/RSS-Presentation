@@ -1,0 +1,17 @@
+#slide-1 p {
+    text-align: right;
+    padding-right: 30px;
+}
+
+#slide-4 div {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+#slide-4 h4 {
+    margin-bottom: 0px;
+}
+
+#slide-4 ul {
+    font-size: 34px;
+}

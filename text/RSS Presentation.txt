@@ -1,0 +1,59 @@
+Slide 1
+Hello! My name is Evgeniy. Now I will give a presentation on the topic “Testing frontend applications”.
+I would like to start my presentation with a short explanation of two concepts. This is what is frontend development and what is application testing.
+
+Slide 2
+What is a frontend application? This is the "face" of the system, the graphical user interface of a website or web application. In other words, this is everything that the user sees when he opens a web page or application and what he interacts with: buttons, banners and animations.
+Therefore, front-end development is the process of creating the look and feel of web applications on the client side.
+
+Slide 3
+Testing is the process of comparing the actual behavior of an application with the expected result. The purpose of testing is to improve the quality of the application and identify its defects.
+Web application testing, also known as web testing, helps test the functionality of an application and identify potential bugs or issues before it is made available to regular users. Testers conduct a series of checks to verify the compatibility, usability, security, and performance of a web application against business requirements.
+Thus, front-end testing is a test of the usability and functionality of the web application interface.
+
+Slide 4
+Now let's talk about the pros and cons of testing.
+Let's consider the main advantages of testing.
+The first advantage is to reduce the number of regressions.
+Regression is an error that occurs in an already working part of the system after making changes to the code.
+The second plus. Gives more confidence when refactoring.
+Another plus. Fix problems when updating dependencies
+This is a special case of regressions.
+Disadvantages of testing. They also exist. They are especially felt at the initial stage of development.
+Testing requires additional financial costs.
+Another minus. We need more time to develop the project.
+Also a minus. You need to think through the structure of the tests and test data. It is difficult to organize such a structure correctly.
+The pros and cons of the tests are over. Let's move on to the types of front-end application testing.
+
+Slide 5
+There are several basic types of front-end application testing. They are usually presented in the form of a pyramid as on a slide. These are Unit testing, Integration testing and End-to-end (e2e). Let's go over each one in more detail.
+
+Slide 6
+Let's start with unit tests.
+Unit, class or unit tests, test individual blocks and functions of the written code.
+Unit tests are the easiest tests to write and the easiest to understand. They are cheaper and faster than others, they are easy to automate.
+Such testing helps to make sure that individual partsof the code work, but does not say whether the code as a whole works.
+The slide shows an example of unit testa through the JEST tool. We'll talk about tools later.
+
+Slide 7
+The main disadvantage of unit testing is solved by integration testing. Integration tests check how two or more parts of a program that work on the same task interact with each other.
+Often, integration testing requires a separate framework that can read task specifications and check that the program works correctly.
+Next, let's move on to the most difficult type of test.
+
+Slide 8
+End 2 End tests, also known as system tests - this is a test of the program as a whole.
+For such testing, a test environment is created that is identical to the environment in which real users work. All actions that users can perform in the application are tested.
+These tests also require a framework that can manipulate the application, as people do. For example Cypress
+
+Slide 9
+Now let's talk about testing tools, of which there are a large number.
+The number one tool is Selenium. is a set of open source programs that are used to test web applications and administer sites locally and on a network. Supports all languages.
+jest
+Testing platform supported by Meta
+It was designed and built with simplicity and support for large web applications in mind.
+testcafe
+Node.js is an open source, free, end-to-end automation tool.
+Jasmine is an open source JavaScript testing framework. It is designed to run on any JavaScript-enabled platform and has an easy-to-read syntax.
+Lambda test, cypress and others are also popular.
+
+
